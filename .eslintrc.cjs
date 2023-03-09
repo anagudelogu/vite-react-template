@@ -10,7 +10,6 @@ module.exports = {
     'prettier',
   ],
   overrides: [],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -33,4 +32,4 @@ module.exports = {
     'custom-rules/no-function-inside-html': 'error',
     'custom-rules/no-direct-file-import': 'error',
   },
-};
+}
